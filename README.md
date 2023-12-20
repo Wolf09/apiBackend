@@ -1,7 +1,5 @@
-# Este es el Api Jar que consume el Api externo
+# Este es el Backend principal que consume el jar generado y este jar a su ves consume de:
 
     developer.marvel.com
 
-## Este jar debe usarse dentro de un backend que utilize springboot y genere endpoints
-
-### Este jar se genero en la carpeta target
+## Este Backend utiliza springboot y genera endpoints
