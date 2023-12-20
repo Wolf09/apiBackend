@@ -1,9 +1,7 @@
-package org.jb.apibackend.model.interfaces;
-
+package com.example.apibackend.model.interfaces;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import org.jb.apibackend.model.dto.Heroe;
-
+import org.example.apijar.model.dto.Heroe;
 import java.util.List;
 
 public interface IHeroe {

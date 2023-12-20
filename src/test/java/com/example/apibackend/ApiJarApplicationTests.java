@@ -1,13 +1,13 @@
-package org.jb.apibackend;
+package com.example.apibackend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApiBackendApplicationTests {
+class ApiJarApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }

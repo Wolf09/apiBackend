@@ -1,7 +1,7 @@
-### Este es el Api Backend que consume el Jar
+# Este es el Api Jar que consume el Api externo
 
-## La importacion del Jar se hizo dentro la carpeta .m2 con los comandos indicados en la documentación de Spring
+    developer.marvel.com
 
-    mvn install:install-file -Dfile=<path-to-file> -DgroupId=<group-id> -DartifactId=<artifact-id> -Dversion=<version> -Dpackaging=<packaging>
+## Este jar debe usarse dentro de un backend que utilize springboot y genere endpoints
 
-
+### Este jar se genero en la carpeta target
