@@ -20,7 +20,7 @@ public class HeroeController {
     private HeroeServiceImplement heroeService;
 
     @GetMapping("/heroes")
-    public ResponseEntity<List<Heroe>> getAll() throws JsonProcessingException {
+    public ResponseEntity<List<Heroe>> getAll(){
         ResponseEntity<List<Heroe>> resp = null;
         try{
             resp= new ResponseEntity<>(heroeService.getHeroes(), HttpStatus.OK);
@@ -30,7 +30,7 @@ public class HeroeController {
         return resp;
     }
     @GetMapping("/heroe/{id}")
-    public ResponseEntity<Heroe> getHeroe(@PathVariable("id") Integer id) throws JsonProcessingException {
+    public ResponseEntity<Heroe> getHeroe(@PathVariable("id") Integer id){
         ResponseEntity<Heroe> resp = null;
         try {
             resp =new ResponseEntity<> (heroeService.getHeroe(id), HttpStatus.OK);

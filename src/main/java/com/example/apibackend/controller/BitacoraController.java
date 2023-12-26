@@ -1,7 +1,7 @@
 package com.example.apibackend.controller;
 
 import com.example.apibackend.model.dao.Bitacora;
-import com.example.apibackend.model.services.BitacoraServiceImpl;
+import com.example.apibackend.model.services.BitacoraServiceImplement;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,7 +14,7 @@ import java.util.List;
 public class BitacoraController {
 
     @Autowired
-    private BitacoraServiceImpl bitacoraService;
+    private BitacoraServiceImplement bitacoraService;
 
     @GetMapping("/bitacoras/{user}")
     public ResponseEntity<List<Bitacora>> allBitacoras(@PathVariable String user){

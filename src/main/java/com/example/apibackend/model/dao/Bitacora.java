@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 public class Bitacora {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private Long id;
     private String usuario;
     private String metodo;
     @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
@@ -21,18 +21,23 @@ public class Bitacora {
     public Bitacora() {
     }
 
-    public Bitacora(long id, String usuario, String metodo, LocalDateTime bitacora) {
+    public Bitacora(Long id, String usuario, String metodo, LocalDateTime bitacora) {
         this.id = id;
         this.usuario = usuario;
         this.metodo = metodo;
         this.bitacora = bitacora;
     }
+//    public Bitacora(String usuario, String metodo, LocalDateTime bitacora) {
+//        this.usuario = usuario;
+//        this.metodo = metodo;
+//        this.bitacora = bitacora;
+//    }
 
     public long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

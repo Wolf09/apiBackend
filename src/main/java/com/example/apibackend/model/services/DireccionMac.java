@@ -48,8 +48,8 @@ public class DireccionMac {
                 address = getMacAddress(lanIp);
 
             } else {
-
-                throw new Exception("Specify \"ip\" or \"mac\"");
+                System.out.println("Valores permitidos \"ip\" o \"mac\"");
+                address=null;
 
             }
 
