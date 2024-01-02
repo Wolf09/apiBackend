@@ -1,4 +1,4 @@
-package com.example.apibackend.model.interfaces;
+package com.example.apibackend.model.repositories;
 
 import com.example.apibackend.model.dao.Bitacora;
 import org.springframework.data.jpa.repository.JpaRepository;

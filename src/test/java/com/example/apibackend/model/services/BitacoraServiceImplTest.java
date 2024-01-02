@@ -1,7 +1,7 @@
 package com.example.apibackend.model.services;
 
 import com.example.apibackend.model.dao.Bitacora;
-import com.example.apibackend.model.interfaces.BitacoraRepositoryJPA;
+import com.example.apibackend.model.repositories.BitacoraRepositoryJPA;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

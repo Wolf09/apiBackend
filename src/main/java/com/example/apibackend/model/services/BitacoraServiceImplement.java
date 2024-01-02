@@ -2,7 +2,7 @@ package com.example.apibackend.model.services;
 
 import com.example.apibackend.model.dao.Bitacora;
 import com.example.apibackend.model.interfaces.InterfaceBitacora;
-import com.example.apibackend.model.interfaces.BitacoraRepositoryJPA;
+import com.example.apibackend.model.repositories.BitacoraRepositoryJPA;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
